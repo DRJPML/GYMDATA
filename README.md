@@ -55,7 +55,7 @@ Gymrats: Con relación al peso hay dos grupos que se separan del resto: mujeres 
 Lo anterior es claramente observable en las gráficas de dispersión en el porcentaje de grasa, duración de la sesión, y peso, y además es visible con un mayor grado de dispersión en otras como calorías quemadas , ingesta de agua y nivel de experiencia.  
 
 ## Visualización de resultados
-Puede consultarse en [https://public.tableau.com/app/profile/jp.ml/viz/Gym_JPML/GYM_DATA]
+Puede consultarse en https://public.tableau.com/app/profile/jp.ml/viz/Gym_JPML/GYM_DATA
 
 ![image](https://github.com/user-attachments/assets/161dcd97-c505-497a-a6df-7edffe539fa4)
 
