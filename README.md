@@ -1,10 +1,5 @@
 ![image](https://github.com/user-attachments/assets/9caccb03-e37e-47a0-a6c7-2438253811b7)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9caccb03-e37e-47a0-a6c7-2438253811b7" alt="Descripción de la imagen" width="300" />
-</p>
-
-
 # Análisis de factores de entrenamiento y fisiología en usuarios de gimnasio
 
 ## Selección y justificación de la base de datos
@@ -27,14 +22,27 @@ Características fisiológicas: edad, genero, peso (kg), altura (m), latidos por
 El dataframe no contiene valores nulos y sin errores visibles en la captura de datos. Se eliminaron tres variables que no se consideraron relevantes para el análisis, las relacionadas con latidos por minuto.
 El tipo de datos es 7 integer (int64), 6 numeric (float 64) y 2 varchar (object). La columna género (object) se modificó a valores 1 y 0 para hombre y mujer respectivamente.
 
-![Limpieza de los datos](https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490" alt="Descripción de la imagen" width="500" />
+</p>
  
 ## Análisis Exploratorio de los Datos
 El análisis exploratorio arroja datos de la fisiología y dinámica del gimnasio, que nos aporta una descripción de su población y características generales:
 La edad promedio es de 38.6 años, existe una buena distribución de los datos como muestra el histograma de edad, hay un equilibrio entre adultos mayores y jóvenes, mismo que se observa entre hombres y mujeres con una relación de 52.5% de hombres respecto a un 48.5% de mujeres. La mayoría de los usuarios están por debajo de los 80 kg, con un promedio de 73.85. La mayoría usa el gimnasio entre hora y hora y media (promedio 1.25 horas).
 La mayoría de los usuarios quema en su sesión entre 750 y 1000 calorías, y su porcentaje de grasa está cargado entre el 25 y 30%. El promedio de ingesta de agua es de 2.62 litros, con picos de hasta 3.7 litros. La mayoría entrena 3 días a la semana (media de 3.32) y la mayoría tiene un nivel de experiencia intermedio, aunque hay un gran grupo que son principiantes.
 En general existen datos esperados en el funcionamiento de un gimnasio, se han localizado grupos de gymrats que representan una clientela fidelizada frente a grupos promedio. Es interesante la segmentación por género y son datos esperados por la complexión física.
+
+	Edad	Genero	Peso (kg)	Altura (m)	Latidos/minuto (max.)	Latidos/minuto (prom.)	Latidos/minuto (reposo)	Tiempo de la sesion (horas)	Calorias quema-das	% de grasa	Ingesta de agua (litros)	Entrenamiento: dias/semana	Nivel de expe-riencia	IMC
+count	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000
+mean	38.683	0.525	73.855	1.723	179.884	143.767	62.223	1.256	905.422	24.977	2.627	3.322	1.810	24.912
+std	12.181	0.500	21.208	0.128	11.526	14.345	7.327	0.343	272.642	6.259	0.600	0.913	0.740	6.661
+min	18.000	0.000	40.000	1.500	160.000	120.000	50.000	0.500	303.000	10.000	1.500	2.000	1.000	12.320
+25%	28.000	0.000	58.100	1.620	170.000	131.000	56.000	1.040	720.000	21.300	2.200	3.000	1.000	20.110
+50%	40.000	1.000	70.000	1.710	180.000	143.000	62.000	1.260	893.000	26.200	2.600	3.000	2.000	24.160
+75%	49.000	1.000	86.000	1.800	190.000	156.000	68.000	1.460	1076.000	29.300	3.100	4.000	2.000	28.560
+max	59.000	1.000	129.900	2.000	199.000	169.000	74.000	2.000	1783.000	35.000	3.700	5.000	3.000	49.840![image](https://github.com/user-attachments/assets/0c6b87ee-8554-4eac-8eec-9235ffc27f34)
+
+
 La correlación no indica grandes hallazgos: a mayor frecuencia de entrenamiento (días a la semana), mayor nivel de experiencia, o entrenan más quienes tienen más expertiz (corelación del 84%). Es esperada también la correlación entre peso e índice de masa corporal de 85%, así como la duración de la sesión y calorías quemadas: mientras más se entrena más se adelgaza.
 Para toda la población hay un muy buen índice de masa corporal con poca obesidad; el tipo de entrenamiento es homologado: no hay una preferencia visible. Hay una ligera variación en los ejercicios de fuerza, donde hay un poco más de mujeres que de hombres. Las mujeres beben menos agua y los hombres más; el dato es esperado por la complexión física.
 
