@@ -23,7 +23,7 @@ El dataframe no contiene valores nulos y sin errores visibles en la captura de d
 El tipo de datos es 7 integer (int64), 6 numeric (float 64) y 2 varchar (object). La columna género (object) se modificó a valores 1 y 0 para hombre y mujer respectivamente.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490" alt="Descripción de la imagen" width="500" />
+  <img src="https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490" alt="Descripción de la imagen" width="1000" />
 </p>
  
 ## Análisis Exploratorio de los Datos
@@ -32,15 +32,10 @@ La edad promedio es de 38.6 años, existe una buena distribución de los datos c
 La mayoría de los usuarios quema en su sesión entre 750 y 1000 calorías, y su porcentaje de grasa está cargado entre el 25 y 30%. El promedio de ingesta de agua es de 2.62 litros, con picos de hasta 3.7 litros. La mayoría entrena 3 días a la semana (media de 3.32) y la mayoría tiene un nivel de experiencia intermedio, aunque hay un gran grupo que son principiantes.
 En general existen datos esperados en el funcionamiento de un gimnasio, se han localizado grupos de gymrats que representan una clientela fidelizada frente a grupos promedio. Es interesante la segmentación por género y son datos esperados por la complexión física.
 
-	Edad	Genero	Peso (kg)	Altura (m)	Latidos/minuto (max.)	Latidos/minuto (prom.)	Latidos/minuto (reposo)	Tiempo de la sesion (horas)	Calorias quema-das	% de grasa	Ingesta de agua (litros)	Entrenamiento: dias/semana	Nivel de expe-riencia	IMC
-count	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000	973.000
-mean	38.683	0.525	73.855	1.723	179.884	143.767	62.223	1.256	905.422	24.977	2.627	3.322	1.810	24.912
-std	12.181	0.500	21.208	0.128	11.526	14.345	7.327	0.343	272.642	6.259	0.600	0.913	0.740	6.661
-min	18.000	0.000	40.000	1.500	160.000	120.000	50.000	0.500	303.000	10.000	1.500	2.000	1.000	12.320
-25%	28.000	0.000	58.100	1.620	170.000	131.000	56.000	1.040	720.000	21.300	2.200	3.000	1.000	20.110
-50%	40.000	1.000	70.000	1.710	180.000	143.000	62.000	1.260	893.000	26.200	2.600	3.000	2.000	24.160
-75%	49.000	1.000	86.000	1.800	190.000	156.000	68.000	1.460	1076.000	29.300	3.100	4.000	2.000	28.560
-max	59.000	1.000	129.900	2.000	199.000	169.000	74.000	2.000	1783.000	35.000	3.700	5.000	3.000	49.840![image](https://github.com/user-attachments/assets/0c6b87ee-8554-4eac-8eec-9235ffc27f34)
+	Edad	Genero	Peso (kg)	Altura (m)	Latidos/minuto (maximo)	Latidos/minuto (promedio)	Latidos/minuto (en reposo)	Duracion de la sesion (horas)	Calorias quemadas	Porcentaje de grasa	Ingesta de agua (litros)	Frecuencia de entrenamiento (dias/semana)	Nivel de experiencia	IMC
+mean	38.68	0.53	73.85	1.72	179.88	143.77	62.22	1.26	905.42	24.98	2.63	3.32	1.81	24.91
+min	18.00	0.00	40.00	1.50	160.00	120.00	50.00	0.50	303.00	10.00	1.50	2.00	1.00	12.32
+max	59.00	1.00	129.90	2.00	199.00	169.00	74.00	2.00	1783.00	35.00	3.70	5.00	3.00	49.84
 
 
 La correlación no indica grandes hallazgos: a mayor frecuencia de entrenamiento (días a la semana), mayor nivel de experiencia, o entrenan más quienes tienen más expertiz (corelación del 84%). Es esperada también la correlación entre peso e índice de masa corporal de 85%, así como la duración de la sesión y calorías quemadas: mientras más se entrena más se adelgaza.
