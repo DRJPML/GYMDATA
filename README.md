@@ -23,7 +23,7 @@ El dataframe no contiene valores nulos y sin errores visibles en la captura de d
 El tipo de datos es 7 integer (int64), 6 numeric (float 64) y 2 varchar (object). La columna género (object) se modificó a valores 1 y 0 para hombre y mujer respectivamente.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490" alt="Descripción de la imagen" width="1000" />
+  <img src="https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490" alt="Descripción de la imagen" width="800" />
 </p>
  
 ## Análisis Exploratorio de los Datos
@@ -32,27 +32,35 @@ La edad promedio es de 38.6 años, existe una buena distribución de los datos c
 La mayoría de los usuarios quema en su sesión entre 750 y 1000 calorías, y su porcentaje de grasa está cargado entre el 25 y 30%. El promedio de ingesta de agua es de 2.62 litros, con picos de hasta 3.7 litros. La mayoría entrena 3 días a la semana (media de 3.32) y la mayoría tiene un nivel de experiencia intermedio, aunque hay un gran grupo que son principiantes.
 En general existen datos esperados en el funcionamiento de un gimnasio, se han localizado grupos de gymrats que representan una clientela fidelizada frente a grupos promedio. Es interesante la segmentación por género y son datos esperados por la complexión física.
 
-	Edad	Genero	Peso (kg)	Altura (m)	Latidos/minuto (maximo)	Latidos/minuto (promedio)	Latidos/minuto (en reposo)	Duracion de la sesion (horas)	Calorias quemadas	Porcentaje de grasa	Ingesta de agua (litros)	Frecuencia de entrenamiento (dias/semana)	Nivel de experiencia	IMC
-mean	38.68	0.53	73.85	1.72	179.88	143.77	62.22	1.26	905.42	24.98	2.63	3.32	1.81	24.91
-min	18.00	0.00	40.00	1.50	160.00	120.00	50.00	0.50	303.00	10.00	1.50	2.00	1.00	12.32
-max	59.00	1.00	129.90	2.00	199.00	169.00	74.00	2.00	1783.00	35.00	3.70	5.00	3.00	49.84
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d414de61-7280-4161-940b-6ee99b5ef853" alt="Descripción de la imagen" width="800" />
+</p>
 
 La correlación no indica grandes hallazgos: a mayor frecuencia de entrenamiento (días a la semana), mayor nivel de experiencia, o entrenan más quienes tienen más expertiz (corelación del 84%). Es esperada también la correlación entre peso e índice de masa corporal de 85%, así como la duración de la sesión y calorías quemadas: mientras más se entrena más se adelgaza.
 Para toda la población hay un muy buen índice de masa corporal con poca obesidad; el tipo de entrenamiento es homologado: no hay una preferencia visible. Hay una ligera variación en los ejercicios de fuerza, donde hay un poco más de mujeres que de hombres. Las mujeres beben menos agua y los hombres más; el dato es esperado por la complexión física.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c67caf56-948e-4a37-b436-d7ee6ba2d8c1" alt="Descripción de la imagen" width="800" />
+</p>
 
 Hay 53% de hombres y 47% de mujeres. Los índices de masa corporal muestran datos homogéneos que representan el 90.6% de los  usuarios que varían de entre 12 y 49 puntos de IMC. Se separa un grupo, de gymrats, de peso asociado a nivel de experiencia y bajo porcentaje de grasa corporal.
 
-
+![image](https://github.com/user-attachments/assets/e82ffc87-2e05-4615-8883-209a8b80e9c5)
 
 Durante el estudio efectuado, se nota una dispersión homogénea en la mayoría de los datos, esto indica un elevado grado de variabilidad entre las observaciones, lo que podría afectar la exactitud de los modelos predictivos y la interpretación de los resultados. Es importante considerar esta organización al analizar la conducta de las variables, dado que podría ser una señal de factores subyacentes o de variabilidad intrínseca en el conjunto de datos.
 La variable a predecir es el porcentaje de grasa, que no es significativo con respecto a la edad, hay un entorno heterogéneo. Los datos muestran que en este gimnasio los hombres tienen de media menos porcentaje de grasa corporal que las mujeres.
+
+![image](https://github.com/user-attachments/assets/2fb0dc13-85a6-44ae-a048-59fc1355fe77)
+
 Gymrats: Con relación al peso hay dos grupos que se separan del resto: mujeres con una media de 60 kilos y bajo porcentaje de grasa corporal y hombres de entre 80 y 90 kilos con un muy bajo porcentaje de grasa corporal. La separación de los grupos también es visible con relación a la altura, aunque hay más dispersión en este caso, así como a la duración de la sesión.
 Lo anterior es claramente observable en las gráficas de dispersión en el porcentaje de grasa, duración de la sesión, y peso, y además es visible con un mayor grado de dispersión en otras como calorías quemadas , ingesta de agua y nivel de experiencia.  
 
 ## Visualización de resultados
+Puede consultarse en [https://public.tableau.com/app/profile/jp.ml/viz/Gym_JPML/GYM_DATA]
 
+![image](https://github.com/user-attachments/assets/8961f585-2130-48c8-84d3-c5a3ffea285a)
+
+![image](https://github.com/user-attachments/assets/f2034a60-e44c-4a16-aba3-557ca59feb31)
 
 
 
