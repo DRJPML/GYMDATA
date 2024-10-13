@@ -1,5 +1,9 @@
+![image](https://github.com/user-attachments/assets/9caccb03-e37e-47a0-a6c7-2438253811b7)
+
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/3bb12fd4-a8da-4957-b74d-7c058b764294)" alt="Descripción de la imagen" width="300" />
+  <img src="https://github.com/user-attachments/assets/9caccb03-e37e-47a0-a6c7-2438253811b7" alt="Descripción de la imagen" width="300" />
+</p>
+
 
 # Análisis de factores de entrenamiento y fisiología en usuarios de gimnasio
 
