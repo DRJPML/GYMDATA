@@ -65,31 +65,30 @@ Puede consultarse en https://public.tableau.com/app/profile/jp.ml/viz/Gym_JPML/G
 ## Conclusiones
 El análisis busca responder a las preguntas planteadas y se arrojan las siguientes conclusiones:
 ¿Qué características fisiológicas y de entrenamiento tienen un mayor impacto en el porcentaje de grasa corporal de los usuarios? Con base en el análisis realizado, las características fisiológicas y de entrenamiento que parecen tener un mayor impacto en el porcentaje de grasa corporal de los usuarios son:
+
 **Peso:** Existe una clara diferenciación entre grupos de peso y porcentaje de grasa corporal. Los usuarios con menor porcentaje de grasa se encuentran en el grupo de mayor peso, particularmente entre los hombres (80-90 kg), y en el grupo de mujeres alrededor de los 60 kg.
 **Género:** Se observó que, en promedio, los hombres tienen un porcentaje de grasa corporal menor en comparación con las mujeres, lo cual se asocia con diferencias en el tipo de entrenamiento y en el consumo de agua.
 **Duración de la sesión de entrenamiento:** Los usuarios que entrenan por períodos más largos tienden a tener un menor porcentaje de grasa corporal. Esto sugiere que la duración de la sesión podría estar vinculada a un mayor consumo de calorías y una reducción en el porcentaje de grasa corporal.
+
 ¿Es posible predecir con precisión el porcentaje de grasa corporal en función de variables como el género, peso, frecuencia de entrenamiento, y duración de la sesión? Sobre la Predicción del Porcentaje de Grasa Corporal Es posible predecir el porcentaje de grasa corporal utilizando variables como género, peso, frecuencia de entrenamiento y duración de la sesión con una certeza del 81.4%. Sin embargo, el modelo actual tiene un margen de error de entre 2.3 y 2.7 puntos porcentuales en promedio, lo cual es aceptable para ciertas aplicaciones. Aun así, estos resultados deben interpretarse como estimaciones y no valores absolutos.
 
 ### Recomendaciones
 Hay dos grupos identificados: a) especializado y b) homogéneo, que genera pocos resultados con su entrenamiento y no se sale del promedio. Para el primero se pueden plantear programas de fidelización y recompensas. Para el segundo, personalización en programas especializados de nutrición y duración de las sesiones. Algunas recomendaciones son: 
-Tarjetas y/o programas de fidelización. 
-Programas de recompensas y regalos con artículos de entrenamiento y  promocionales. 
-Programas personalizados (de alimentación, suplementación o hábitos de sueño) para mejorar las condiciones fisiológicas. 
-Rutinas personalizadas con base en las características fisiológicas del usuario y sus hábitos de entrenamiento.
+Tarjetas y/o programas de fidelización.  Programas de recompensas y regalos con artículos de entrenamiento y  promocionales.  Programas personalizados (de alimentación, suplementación o hábitos de sueño) para mejorar las condiciones fisiológicas.  Rutinas personalizadas con base en las características fisiológicas del usuario y sus hábitos de entrenamiento.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d740c462-dfba-4d95-95ec-250cb2352a3f" alt="Descripción de la imagen" width="500" />
 </p>
 
 ### Posibles limitaciones del análisis
-Tamaño y diversidad de la muestra: si la base de datos no incluye suficientes usuarios o diversidad en los perfiles (edad, género, tipo de entrenamiento), los resultados podrían no ser representativos de una población más amplia. El modelo podría beneficiarse de mejoras adicionales, como la inclusión de más datos o el ajuste de parámetros para optimizar la precisión.
-Falta de datos cualitativos: datos importantes como hábitos alimenticios, calidad del sueño, y nivel de estrés no se incluyen, lo que puede limitar la comprensión de otros factores que influyen en la composición corporal.
-Sesgo en el tipo de entrenamiento: si el gimnasio se especializa en un tipo específico de entrenamiento, o no hay registro de la elección de los usuarios (por ejemplo, en un mismo día), los datos podrían no reflejar una variedad suficiente en las preferencias de ejercicio.
+*Tamaño y diversidad de la muestra:* si la base de datos no incluye suficientes usuarios o diversidad en los perfiles (edad, género, tipo de entrenamiento), los resultados podrían no ser representativos de una población más amplia. El modelo podría beneficiarse de mejoras adicionales, como la inclusión de más datos o el ajuste de parámetros para optimizar la precisión.
+*Falta de datos cualitativos:* datos importantes como hábitos alimenticios, calidad del sueño, y nivel de estrés no se incluyen, lo que puede limitar la comprensión de otros factores que influyen en la composición corporal.
+*Sesgo en el tipo de entrenamiento:* si el gimnasio se especializa en un tipo específico de entrenamiento, o no hay registro de la elección de los usuarios (por ejemplo, en un mismo día), los datos podrían no reflejar una variedad suficiente en las preferencias de ejercicio.
 
 ### Sugerencias para trabajos futuros
-Ampliar el alcance de la base de datos: incluir una mayor diversidad de usuarios y recopilar datos en varios gimnasios para mejorar la representatividad.
-Incluir factores adicionales: recopilar datos sobre hábitos alimenticios, calidad de sueño, nivel de actividad física fuera del gimnasio y otros indicadores de salud como padecimientos crónicos, etcétera.
-Segmentación temporal: analizar datos a lo largo del tiempo para identificar cambios en la composición corporal y ver cómo los patrones de entrenamiento afectan a largo plazo.
-Grupos de control: comparar los datos del gimnasio con los de personas que entrenan en otros contextos (como en casa o al aire libre) para obtener una perspectiva más amplia.
+*Ampliar el alcance de la base de datos:* incluir una mayor diversidad de usuarios y recopilar datos en varios gimnasios para mejorar la representatividad.
+*Incluir factores adicionales:* recopilar datos sobre hábitos alimenticios, calidad de sueño, nivel de actividad física fuera del gimnasio y otros indicadores de salud como padecimientos crónicos, etcétera.
+*Segmentación temporal:* analizar datos a lo largo del tiempo para identificar cambios en la composición corporal y ver cómo los patrones de entrenamiento afectan a largo plazo.
+*Grupos de control:* comparar los datos del gimnasio con los de personas que entrenan en otros contextos (como en casa o al aire libre) para obtener una perspectiva más amplia.
 
 
