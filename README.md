@@ -32,8 +32,7 @@ La edad promedio es de 38.6 años, existe una buena distribución de los datos c
 La mayoría de los usuarios quema en su sesión entre 750 y 1000 calorías, y su porcentaje de grasa está cargado entre el 25 y 30%. El promedio de ingesta de agua es de 2.62 litros, con picos de hasta 3.7 litros. La mayoría entrena 3 días a la semana (media de 3.32) y la mayoría tiene un nivel de experiencia intermedio, aunque hay un gran grupo que son principiantes.
 En general existen datos esperados en el funcionamiento de un gimnasio, se han localizado grupos de gymrats que representan una clientela fidelizada frente a grupos promedio. Es interesante la segmentación por género y son datos esperados por la complexión física.
 
-![image](https://github.com/user-attachments/assets/07a96bd7-59d2-45c8-bbc9-0bcb8e411f75)
-
+![image](https://github.com/user-attachments/assets/90d7a879-0b36-4fb3-89b3-77832837cd81)
 
 La correlación no indica grandes hallazgos: a mayor frecuencia de entrenamiento (días a la semana), mayor nivel de experiencia, o entrenan más quienes tienen más expertiz (corelación del 84%). Es esperada también la correlación entre peso e índice de masa corporal de 85%, así como la duración de la sesión y calorías quemadas: mientras más se entrena más se adelgaza.
 Para toda la población hay un muy buen índice de masa corporal con poca obesidad; el tipo de entrenamiento es homologado: no hay una preferencia visible. Hay una ligera variación en los ejercicios de fuerza, donde hay un poco más de mujeres que de hombres. Las mujeres beben menos agua y los hombres más; el dato es esperado por la complexión física.
