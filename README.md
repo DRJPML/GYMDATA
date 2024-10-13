@@ -45,9 +45,8 @@ Para toda la población hay un muy buen índice de masa corporal con poca obesid
 
 Hay 53% de hombres y 47% de mujeres. Los índices de masa corporal muestran datos homogéneos que representan el 90.6% de los  usuarios que varían de entre 12 y 49 puntos de IMC. Se separa un grupo, de gymrats, de peso asociado a nivel de experiencia y bajo porcentaje de grasa corporal.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e82ffc87-2e05-4615-8883-209a8b80e9c5" alt="Descripción de la imagen" width="1000" />
-</p>
+![image](https://github.com/user-attachments/assets/626b63fa-27c0-4f9d-be37-e381acee96d2)
+
 
 Durante el estudio efectuado, se nota una dispersión homogénea en la mayoría de los datos, esto indica un elevado grado de variabilidad entre las observaciones, lo que podría afectar la exactitud de los modelos predictivos y la interpretación de los resultados. Es importante considerar esta organización al analizar la conducta de las variables, dado que podría ser una señal de factores subyacentes o de variabilidad intrínseca en el conjunto de datos.
 La variable a predecir es el porcentaje de grasa, que no es significativo con respecto a la edad, hay un entorno heterogéneo. Los datos muestran que en este gimnasio los hombres tienen de media menos porcentaje de grasa corporal que las mujeres.
@@ -79,6 +78,10 @@ Tarjetas y/o programas de fidelización. 
 Programas de recompensas y regalos con artículos de entrenamiento y  promocionales. 
 Programas personalizados (de alimentación, suplementación o hábitos de sueño) para mejorar las condiciones fisiológicas. 
 Rutinas personalizadas con base en las características fisiológicas del usuario y sus hábitos de entrenamiento.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d740c462-dfba-4d95-95ec-250cb2352a3f" alt="Descripción de la imagen" width="800" />
+</p>
 
 ### Posibles limitaciones del análisis
 Tamaño y diversidad de la muestra: si la base de datos no incluye suficientes usuarios o diversidad en los perfiles (edad, género, tipo de entrenamiento), los resultados podrían no ser representativos de una población más amplia. El modelo podría beneficiarse de mejoras adicionales, como la inclusión de más datos o el ajuste de parámetros para optimizar la precisión.
