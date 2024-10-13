@@ -1,4 +1,6 @@
-# Análisis de Factores de Entrenamiento y Fisiología en Usuarios de Gimnasio
+![image](https://github.com/user-attachments/assets/3bb12fd4-a8da-4957-b74d-7c058b764294)
+
+# Análisis de factores de entrenamiento y fisiología en usuarios de gimnasio
 
 ## Selección y justificación de la base de datos
 La base de datos fue extraída de Kaggle https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset y se tradujo al español por comodidad en la lectura del análisis en el cuadernillo. Consta de 15 columnas y 973 registros; es información de los usuarios de un gimnasio que contiene datos con características fisiológicas que evalúan el rendimiento por persona en las siguientes categorías: edad, genero, peso (kg), altura (m), latidos por minuto máximo, latidos por minuto promedio, latidos por minuto en reposo, duración de la sesión (horas), calorías quemadas, porcentaje de grasa, e índice de masa corporal. Los datos también aportan detalles sobre su entrenamiento y hábitos: tipo de entrenamiento, ingesta de agua (litros), frecuencia de entrenamiento (días/semana) y nivel de experiencia.
@@ -12,15 +14,17 @@ El análisis y la predicción son valiosos para diseñar programas de entrenamie
 ### Preguntas de investigación
 Las preguntas que se pretenden responder son: **¿Qué características fisiológicas y de entrenamiento tienen un mayor impacto en el porcentaje de grasa corporal de los usuarios? ¿Es posible predecir con precisión el porcentaje de grasa corporal en función de variables como el género, peso, frecuencia de entrenamiento, y duración de la sesión?**
 
-
 ## Preparación y Limpieza de los Datos
 Para una primera exploración se utilizó el software Microsoft Excel. En éste se hizo una traducción al español de la base de datos. La segunda exploración se realizó a través de Python, desde aquí se hizo la manipulación, análisis y presentación de los primeros histogramas y gráficas de dispersión para visualizar todos los datos.
 La base de datos tiene 976 registros, con quince variables: 
 Hábitos de entrenamiento: duración de la sesión (horas), tipo de entrenamiento, ingesta de agua (litros), frecuencia de entrenamiento (días/semana) y nivel de experiencia.
 Características fisiológicas: edad, genero, peso (kg), altura (m), latidos por minuto máximo, latidos por minuto promedio, latidos por minuto en reposo, calorías quemadas, porcentaje de grasa, e índice de masa corporal.
 El dataframe no contiene valores nulos y sin errores visibles en la captura de datos. Se eliminaron tres variables que no se consideraron relevantes para el análisis, las relacionadas con latidos por minuto.
-El tipo de datos es 7 integer (int64), 6 numeric (float 64) y 2 varchar (object). La columna género (object) se modificó a valores 1 y 0 para hombre y mujer respectivamente
+El tipo de datos es 7 integer (int64), 6 numeric (float 64) y 2 varchar (object). La columna género (object) se modificó a valores 1 y 0 para hombre y mujer respectivamente.
 
+![Limpieza de los datos](https://github.com/user-attachments/assets/54eede55-0609-4cd6-80bf-96fb14ab7490)
+
+ 
 ## Análisis Exploratorio de los Datos
 El análisis exploratorio arroja datos de la fisiología y dinámica del gimnasio, que nos aporta una descripción de su población y características generales:
 La edad promedio es de 38.6 años, existe una buena distribución de los datos como muestra el histograma de edad, hay un equilibrio entre adultos mayores y jóvenes, mismo que se observa entre hombres y mujeres con una relación de 52.5% de hombres respecto a un 48.5% de mujeres. La mayoría de los usuarios están por debajo de los 80 kg, con un promedio de 73.85. La mayoría usa el gimnasio entre hora y hora y media (promedio 1.25 horas).
