@@ -45,7 +45,9 @@ Para toda la población hay un muy buen índice de masa corporal con poca obesid
 
 Hay 53% de hombres y 47% de mujeres. Los índices de masa corporal muestran datos homogéneos que representan el 90.6% de los  usuarios que varían de entre 12 y 49 puntos de IMC. Se separa un grupo, de gymrats, de peso asociado a nivel de experiencia y bajo porcentaje de grasa corporal.
 
-![image](https://github.com/user-attachments/assets/e82ffc87-2e05-4615-8883-209a8b80e9c5)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e82ffc87-2e05-4615-8883-209a8b80e9c5" alt="Descripción de la imagen" width="1000" />
+</p>
 
 Durante el estudio efectuado, se nota una dispersión homogénea en la mayoría de los datos, esto indica un elevado grado de variabilidad entre las observaciones, lo que podría afectar la exactitud de los modelos predictivos y la interpretación de los resultados. Es importante considerar esta organización al analizar la conducta de las variables, dado que podría ser una señal de factores subyacentes o de variabilidad intrínseca en el conjunto de datos.
 La variable a predecir es el porcentaje de grasa, que no es significativo con respecto a la edad, hay un entorno heterogéneo. Los datos muestran que en este gimnasio los hombres tienen de media menos porcentaje de grasa corporal que las mujeres.
@@ -58,10 +60,9 @@ Lo anterior es claramente observable en las gráficas de dispersión en el porce
 ## Visualización de resultados
 Puede consultarse en [https://public.tableau.com/app/profile/jp.ml/viz/Gym_JPML/GYM_DATA]
 
-![image](https://github.com/user-attachments/assets/8961f585-2130-48c8-84d3-c5a3ffea285a)
+![image](https://github.com/user-attachments/assets/161dcd97-c505-497a-a6df-7edffe539fa4)
 
-![image](https://github.com/user-attachments/assets/f2034a60-e44c-4a16-aba3-557ca59feb31)
-
+![image](https://github.com/user-attachments/assets/f5a8a758-f108-47ce-96ca-f972feb0cf27)
 
 
 ## Conclusiones
